@@ -28,7 +28,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,0.6);
+        background: $colorTrasparente;
     }
     .info{
         z-index: 1;
@@ -38,19 +38,19 @@
     }
     a{
         text-decoration: none;
-        color: #fff;
-        background: #3088e0;
+        color :$colorBlanco;
+        background: $colorAzul;
         padding: 16px 37px;
         display: inline-block;
         border-radius: 50px;
     }
     .info h1{
-        color: white;
+        color:$colorBlanco;
         font-size: 45px;
         margin-bottom: 20px;
     }
     .info p{
-        color: #c7c7c7;
+        color: $colorBlanco;
         line-height: 1.7;
         margin-bottom: 30px;
     }

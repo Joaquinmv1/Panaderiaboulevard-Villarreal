@@ -3,12 +3,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     .box{
-        background-color: whitesmoke;
-        color: rgb(0, 0, 0);
+        background-color: $colorBlanco;
+        color: $colorNegro;
         border:1px solid;
         margin: 0%;
         padding: 10px;
-        box-shadow: 10px 10px 5px #888888;
+        box-shadow: 10px 10px 5px $colorGris;
         box-sizing: border-box;
         font-size: 20px;
         width: 80%;
