@@ -1,182 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-body{
-    font-family: sans-serif;
-    overflow-x:hidden;
-}
-
-header{
-    display: flex;
-    min-height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-
-}
-main{
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 10px;
+.banner {
+  width: 100%;
+  height: 600px;
+  animation: banner 10s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main img{
-        width: 50%;
-        height: 50%;
-        margin-left: 25%;
-
+@keyframes banner {
+  0%, 20% {
+    background-image: url(../img/2.jpg);
+  }
+  25%, 45% {
+    background-image: url(../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg);
+  }
+  50%, 70% {
+    background-image: url(../img/HD-wallpaper-bakery-store-building-bakery-store-shop.jpg);
+  }
+  75%, 100% {
+    background-image: url(../img/HD-wallpaper-breads-bakery-graphy-food-healthy-bread.jpg);
+  }
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-top: 10px;
+.banner .capa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
 }
 
-.logo img{
-   height: 50px;
-   margin-right: 10px;
+.banner .info {
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
 }
 
-.navEnlace{
-    background-color:orange;
-    width:15%;
-    font-size: 15px;
-    padding: 10px;
-    margin: 10px;
-    color: white;
-    border-bottom: 1px solid #f2dec2
-
+.banner a {
+  text-decoration: none;
+  color: #fff;
+  background: #3088e0;
+  padding: 16px 37px;
+  display: inline-block;
+  border-radius: 50px;
 }
 
-.navEnlace:hover{
-    background-color: black;
+.banner .info h1 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
 
-.banner{
-    width: 100%;
-    height: 600px;
-    animation: banner 10s infinite linear alternate;
-    background-size: 100% 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@keyframes banner{
-    0%, 20%{
-        background-image: url(../img/2.jpg);
-    }
-    25%, 45%{
-        background-image: url(../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg);
-    }
-    50%, 70%{
-        background-image: url(../img/HD-wallpaper-bakery-store-building-bakery-store-shop.jpg);
-    }
-    75%, 100%{
-        background-image: url(../img/HD-wallpaper-breads-bakery-graphy-food-healthy-bread.jpg);
-    }
+.banner .info p {
+  color: #c7c7c7;
+  line-height: 1.7;
+  margin-bottom: 30px;
 }
 
-.capa{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.6)
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.titulo h2{
-    display: flex;
-    justify-content: center;
+.contenedor .box {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid;
+  margin: 0%;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 80%;
+  margin-top: 20px;
 }
 
-.info{
-    z-index: 1;
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
+.contenedor .box img {
+  width: 120px;
+  height: 120px;
 }
 
-.info h1{
-    color: white;
-    font-size: 45px;
-    margin-bottom: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.info p{
-    color: #c7c7c7;
-    line-height: 1.7;
-    margin-bottom: 30px;
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
-
-.info a{
-    color: #fff;
-    background: #3088e0;
-    padding: 16px 37px;
-    display: inline-block;
-    border-radius: 50px;
-}
-
-.contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.box{
-        background-color: whitesmoke;
-        color: rgb(0, 0, 0);
-        border:1px solid;
-        margin: 0%;
-        padding: 10px;
-        box-shadow: 10px 10px 5px #888888;
-        box-sizing: border-box;
-        font-size: 20px;
-        width: 100%;
-        margin-top: 20px;
-       
-}
-
-.box:hover{
-        transform:translateY(8px)
-}
-    
-.box img{
-        width: 120px;
-        height: 120px;
-}
-    
-
-form{
-        width: 400px;
-        padding: 40px;
-        margin: auto;
-        margin-top: 100px;
-        border-radius: 4px;
-        color: rgb(5, 5, 5);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 25px;
-}
-
-.f{
-        width: 100%;
-        padding: 5px;
-        margin: 5px;
-        background-color:white;
-        margin-bottom: 16px;
- }
-
-footer{
-    grid-area: footer;
-
-}
-
-
-
+/*# sourceMappingURL=style.css.map */
