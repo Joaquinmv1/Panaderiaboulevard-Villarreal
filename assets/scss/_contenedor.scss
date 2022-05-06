@@ -1,22 +1,59 @@
 .contenedor{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    .contenedor h2{
+        color: black;
+    }
     .box{
-        background-color: $colorBlanco;
-        color: $colorNegro;
-        border:1px solid;
-        margin: 0%;
-        padding: 10px;
-        box-shadow: 10px 10px 5px $colorGris;
-        box-sizing: border-box;
+        color:$colorBlanco;
+        border:1px solid rgb(0, 0, 0) ;
+        margin: 10%;
+        padding: 30px;
+        border-radius: 10px;
         font-size: 20px;
-        width: 80%;
-        margin-top: 20px;
+        margin-top: 40px;
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/pasteleria.jpg");
+    background-size: cover;
+    
     }
-    .box img{
-        width: 120px;
-        height: 120px;
+    .box2{
+        color: $colorBlanco;
+        border:1px solid rgb(0, 0, 0) ;
+        margin: 10%;
+        padding: 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 40px;
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url(../img/mini_triples_de_miga-cover.jpg);
+    background-size: cover;
+ 
     }
+    .box3{
+        color: $colorBlanco;
+        border:1px solid rgb(0, 0, 0) ;
+        margin: 10%;
+        padding: 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 40px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg");
+    }
+ 
 
 }

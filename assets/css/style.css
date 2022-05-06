@@ -50,13 +50,13 @@
 }
 
 .banner .info h1 {
-  color: white;
+  color: #fff;
   font-size: 45px;
   margin-bottom: 20px;
 }
 
 .banner .info p {
-  color: #c7c7c7;
+  color: #fff;
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -64,25 +64,46 @@
 .contenedor {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.contenedor .contenedor h2 {
+  color: black;
 }
 
 .contenedor .box {
-  background-color: whitesmoke;
-  color: black;
-  border: 1px solid;
-  margin: 0%;
-  padding: 10px;
-  box-shadow: 10px 10px 5px #888888;
-  box-sizing: border-box;
+  color: #fff;
+  border: 1px solid black;
+  margin: 10%;
+  padding: 30px;
+  border-radius: 10px;
   font-size: 20px;
-  width: 80%;
-  margin-top: 20px;
+  margin-top: 40px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pasteleria.jpg");
+  background-size: cover;
 }
 
-.contenedor .box img {
-  width: 120px;
-  height: 120px;
+.contenedor .box2 {
+  color: #fff;
+  border: 1px solid black;
+  margin: 10%;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mini_triples_de_miga-cover.jpg);
+  background-size: cover;
+}
+
+.contenedor .box3 {
+  color: #fff;
+  border: 1px solid black;
+  margin: 10%;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg");
 }
 
 * {
