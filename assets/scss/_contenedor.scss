@@ -4,7 +4,6 @@
     justify-content: center;
     padding: 50px;
     color: orange;
-  
     .box{
         color:$colorBlanco;
         border:1px solid rgb(0, 0, 0) ;
@@ -20,7 +19,10 @@
     )
     ,url("../img/pasteleria.jpg");
     background-size: cover;
-    
+    .boton{
+        border-radius: 5px;
+        padding: 5px;
+    }
     }
     .box2{
         color: $colorBlanco;
@@ -37,6 +39,10 @@
     )
     , url(../img/mini_triples_de_miga-cover.jpg);
     background-size: cover;
+    .boton{
+        border-radius: 5px;
+        padding: 5px
+    }
  
     }
     .box3{
@@ -53,7 +59,12 @@
             rgba(0,0,0,0.5)
         )
         ,url("../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg");
+        .boton{
+            border-radius: 5px;
+            padding: 5px
+        }
     }
- 
+  
+    
 
 }

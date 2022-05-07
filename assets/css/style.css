@@ -81,6 +81,11 @@
   background-size: cover;
 }
 
+.contenedor .box .boton {
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .contenedor .box2 {
   color: #fff;
   border: 1px solid black;
@@ -93,6 +98,11 @@
   background-size: cover;
 }
 
+.contenedor .box2 .boton {
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .contenedor .box3 {
   color: #fff;
   border: 1px solid black;
@@ -102,6 +112,11 @@
   font-size: 20px;
   margin-top: 40px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg");
+}
+
+.contenedor .box3 .boton {
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .info2 {
@@ -124,6 +139,7 @@
 
 .info2 .texto h2 {
   color: orange;
+  font-size: 34px;
 }
 
 .info2 .container_img {
