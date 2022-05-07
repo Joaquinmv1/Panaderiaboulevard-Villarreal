@@ -65,10 +65,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.contenedor .contenedor h2 {
-  color: black;
+  padding: 50px;
 }
 
 .contenedor .box {
@@ -104,6 +101,31 @@
   font-size: 20px;
   margin-top: 40px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg");
+}
+
+.info2 {
+  display: flex;
+  text-align: center;
+  padding: 200px;
+  justify-content: space-around;
+}
+
+.info2 .texto {
+  width: 50%;
+  max-width: 600px;
+  text-align: initial;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info2 .container_img {
+  background-image: url("../img/local.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 50%;
 }
 
 * {
