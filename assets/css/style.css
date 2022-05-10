@@ -82,8 +82,11 @@
 }
 
 .contenedor .box .boton {
-  border-radius: 5px;
-  padding: 5px;
+  color: #fff;
+  background: #3088e0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: none;
 }
 
 .contenedor .box2 {
@@ -99,8 +102,11 @@
 }
 
 .contenedor .box2 .boton {
-  border-radius: 5px;
-  padding: 5px;
+  color: #fff;
+  background: #3088e0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: none;
 }
 
 .contenedor .box3 {
@@ -115,8 +121,11 @@
 }
 
 .contenedor .box3 .boton {
-  border-radius: 5px;
-  padding: 5px;
+  color: #fff;
+  background: #3088e0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: none;
 }
 
 .info2 {
@@ -150,6 +159,72 @@
   width: 50%;
 }
 
+.container-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+  align-items: center;
+}
+
+.container-form .container-form h2 {
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+.container-form .container-form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.container-form .container-form a {
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.container-form .container-form a i {
+  color: orange;
+  margin-right: 10px;
+}
+
+.container-form .container-form form .campo, .container-form textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+
+.container-form .container-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+.container-form .container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: orange;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -161,4 +236,68 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
 }
+.container-form{
+  width: 100%;
+  max-width: 1100px;
+  padding: 10px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:50px;
+  margin-top: 90px;
+ 
+}
+.container-form h2{
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+.container-form p{
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.container-form a{
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+}
+.container-form a i{
+  color: orange;
+  margin-right: 10px;
+}
+.container-form form .campo, textarea{
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+.container-form form textarea{
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+.container-form .btn-enviar{
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: orange;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+
+}
+.container-form .btn-enviar:hover{
+  background: #e39403;
+}
+
 /*# sourceMappingURL=style.css.map */
