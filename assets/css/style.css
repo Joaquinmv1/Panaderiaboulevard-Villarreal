@@ -11,16 +11,16 @@
 
 @keyframes banner {
   0%, 20% {
-    background-image: url(../img/2.jpg);
+    background-image: url(../img/2-min\ \(1\).jpg);
   }
   25%, 45% {
-    background-image: url(../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg);
+    background-image: url(../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview-min.jpg);
   }
   50%, 70% {
-    background-image: url(../img/HD-wallpaper-bakery-store-building-bakery-store-shop.jpg);
+    background-image: url(../img/HD-wallpaper-bakery-store-building-bakery-store-shop-min.jpg);
   }
   75%, 100% {
-    background-image: url(../img/HD-wallpaper-breads-bakery-graphy-food-healthy-bread.jpg);
+    background-image: url(../img/HD-wallpaper-breads-bakery-graphy-food-healthy-bread-min.jpg);
   }
 }
 
@@ -69,7 +69,7 @@
   color: orange;
 }
 
-.contenedor .box {
+.contenedor .card, .contenedor .card2, .contenedor .card3 {
   color: #fff;
   border: 1px solid black;
   margin: 10%;
@@ -77,55 +77,8 @@
   border-radius: 10px;
   font-size: 20px;
   margin-top: 40px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pasteleria.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mini_triples_de_miga-cover-min.jpg);
   background-size: cover;
-}
-
-.contenedor .box .boton {
-  color: #fff;
-  background: #3088e0;
-  padding: 10px 35px;
-  border-radius: 10px;
-  border: none;
-}
-
-.contenedor .box2 {
-  color: #fff;
-  border: 1px solid black;
-  margin: 10%;
-  padding: 30px;
-  border-radius: 10px;
-  font-size: 20px;
-  margin-top: 40px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mini_triples_de_miga-cover.jpg);
-  background-size: cover;
-}
-
-.contenedor .box2 .boton {
-  color: #fff;
-  background: #3088e0;
-  padding: 10px 35px;
-  border-radius: 10px;
-  border: none;
-}
-
-.contenedor .box3 {
-  color: #fff;
-  border: 1px solid black;
-  margin: 10%;
-  padding: 30px;
-  border-radius: 10px;
-  font-size: 20px;
-  margin-top: 40px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/food-bread-baking-pretzel-still-life-hd-wallpaper-preview.jpg");
-}
-
-.contenedor .box3 .boton {
-  color: #fff;
-  background: #3088e0;
-  padding: 10px 35px;
-  border-radius: 10px;
-  border: none;
 }
 
 .info2 {
@@ -152,7 +105,7 @@
 }
 
 .info2 .container_img {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/local.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/local-min.jpg");
   background-size: cover;
   background-position: center center;
   height: 500px;
@@ -223,6 +176,14 @@
   border-radius: 3px;
   cursor: pointer;
   transition: all 300ms ease;
+}
+
+.boton {
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: none;
+  background: #3088e0;
+  color: #fff;
 }
 
 * {

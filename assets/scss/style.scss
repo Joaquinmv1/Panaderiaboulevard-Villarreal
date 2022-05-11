@@ -1,8 +1,10 @@
-@import "_variables";
-@import "_banner";
-@import "_contenedor";
-@import "_info";
-@import "_contacto";
+@import "variables";
+@import "banner";
+@import "tarjetas";
+@import "info";
+@import "contacto";
+@import "_boton";
+
 
 *{
     margin: 0;

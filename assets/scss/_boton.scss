@@ -1,0 +1,7 @@
+.boton{
+    padding: map-get($boton , padding );
+    border-radius: map-get($boton , radius );
+    border:map-get($boton , border );
+    background: map-get($boton, azul );
+    color: map-get($boton , blanco );
+}
