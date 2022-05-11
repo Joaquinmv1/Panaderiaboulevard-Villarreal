@@ -1,5 +1,5 @@
 EL BOULEVARD:
-El boulevard es una pagina realizada para una panaderia, en la cual podes encontrar una gran variedad de comidas.
+El boulevard es una pagina realizada para una panaderia, en la cual podes encontrar una gran variedad de productos.
 
 EL CEO:
 Primero para la optimizacion de la pagina, las imagenes fueron comprimidas , para aliviarnar la carga de la pagina a la hora de iniciarse.
