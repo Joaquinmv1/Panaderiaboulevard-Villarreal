@@ -1,0 +1,45 @@
+.container{
+	width: 90%;
+	height: 100%;
+	padding-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content:space-between;
+    
+	.container .card1{
+        width: 270px;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+        border: 2px solid orange;
+        border-radius: 10x;
+        box-shadow: 0 0 7px rgba(0,0, 0,0.8);
+    }
+    .container .card1 .product-image{
+        width: 230px;
+        margin: 20px auto;
+    }
+    .container .card1 .product-image img{
+        width: 100%;
+        transition: 0,4s;
+    }
+    .container .card1 .product-info h4{
+        font-size: 18px;
+        padding: 0 25px;
+        margin-bottom: 10px;
+    }
+    .container .card1 .btn{
+        width: 100%;
+    } 
+    .container .card1 .btn button{
+        width: 100%;
+        background: black;
+        border: 1px solid orange;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 5px
+    }
+}

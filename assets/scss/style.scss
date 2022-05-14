@@ -3,7 +3,8 @@
 @import "tarjetas";
 @import "info";
 @import "contacto";
-@import "_boton";
+@import "boton";
+@import "tarjetasproductos";
 
 
 *{
@@ -13,7 +14,7 @@
     text-decoration: none;
 }
 body{
-    font-family: sans-serif;
+    
     overflow-x:hidden;
 }
 

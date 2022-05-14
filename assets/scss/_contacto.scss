@@ -1,4 +1,4 @@
-.container-form{
+.contenedor-form{
     width: 100%;
     max-width: 1100px;
     margin: auto;
@@ -7,16 +7,16 @@
     grid-gap:50px;
     margin-top: 90px;
     align-items: center;
-    .container-form h2{
+    .contenedor-form h2{
         margin-bottom: 40px;
         font-size: 35px;
     }
-    .container-form p{
+    .contenedor-form p{
         font-size: 17px;
         line-height: 1.6;
         margin-bottom: 30px;
         }
-    .container-form a{
+        .contenedor-form a{
             font-size: 17px;
             display: inline-block;
             text-decoration: none;
@@ -25,11 +25,11 @@
             color: black;
             font-weight: 700;
         }
-    .container-form a i{
+        .contenedor-form i{
             color: orange;
             margin-right: 10px;
         }
-    .container-form form .campo, textarea{
+        .contenedor-form form .campo textarea{
             width: 100%;
             padding: 15px 10px;
             font-size: 15px;
@@ -38,13 +38,13 @@
             border-radius: 3px;
             outline: 0px;
         }
-    .container-form form textarea{
+        .contenedor-form form textarea{
             max-width: 530px;
             min-width: 530px;
             min-height: 140px;
             max-height: 150px;
         }
-    .container-form .btn-enviar{
+        .contenedor-form .btn-enviar{
             padding: 15px;
             font-size: 16px;
             border: none;
