@@ -335,11 +335,6 @@
 .container-form .container-form .btn-enviar:hover {
   background: orange;
 }
-@media(min-width:768px){
-  .card{
-    width: 350px;
-  }
-}
 
 * {
   margin: 0;
