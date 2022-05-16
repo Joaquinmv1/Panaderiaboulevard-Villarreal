@@ -7,14 +7,16 @@
 	align-items: center;
 	justify-content:space-between;
     
+    
 	.container .card1{
         width: 270px;
-        margin-top: 0px;
+        margin-top: 10px;
         text-align: center;
         overflow: hidden;
         border: 2px solid orange;
         border-radius: 10x;
         box-shadow: 0 0 7px rgba(0,0, 0,0.8);
+        
     }
     .container .card1 .product-image{
         width: 230px;
