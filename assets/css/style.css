@@ -72,7 +72,6 @@
 }
 
 .contenedor .card {
-  width: 450px;
   height: 300px;
   color: #fff;
   margin: 10%;
@@ -92,7 +91,7 @@
 .info2 {
   display: flex;
   text-align: center;
-  padding: 200px;
+  padding: /*200px*/ 15%;
   justify-content: space-around;
   background-color: #f2f2f2;
 }
@@ -116,7 +115,7 @@
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/local-min.jpg");
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  height: /*500px*/  50vh;
   width: 50%;
 }
 
@@ -261,11 +260,11 @@
   background-color: orange;
 }
 
-@media (max-width: 767) {
+/*@media (max-width: 767) {
   .footer .footer-col {
     width: 100%;
   }
-}
+}*/
 
 .container-form {
   width: 100%;
@@ -303,7 +302,7 @@
   margin-right: 10px;
 }
 
-.container-form .container-form form .campo, .container-form textarea {
+.container-form form .campo, .container-form textarea {
   width: 100%;
   padding: 15px 10px;
   font-size: 15px;
@@ -313,14 +312,14 @@
   outline: 0px;
 }
 
-.container-form .container-form form textarea {
+.container-form  form textarea {
   max-width: 530px;
   min-width: 530px;
   min-height: 140px;
   max-height: 150px;
 }
 
-.container-form .container-form .btn-enviar {
+.container-form  .btn-enviar {
   padding: 15px;
   border: none;
   font-size: 15px;
@@ -332,7 +331,7 @@
   transition: all 300ms ease;
 }
 
-.container-form .container-form .btn-enviar:hover {
+.container-form  .btn-enviar:hover {
   background: orange;
 }
 
@@ -347,4 +346,60 @@ body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
 }
+
+/* Nuevo estilo */
+
+.h3, h3 {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 501px) and (max-width: 992px) {
+
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info2 .container_img {
+    width: 100%;
+  }
+
+  .info2 .texto {
+    width: 100%;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info2 .container_img {
+    width: 100%;
+  }
+
+  .info2 .texto {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  p {
+    margin-top: 40px;
+  }
+
+  ol, ul {
+    padding-left: 0;
+  }
+
+  .footer .footer-col {
+    width: 50%;
+    padding: 0px 16px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
