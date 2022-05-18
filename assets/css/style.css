@@ -369,6 +369,11 @@ body {
     width: 100%;
     padding-right: 30px;
   }
+  .container-form{
+    display: flex;
+    flex-direction: column;
+  }
+ 
 }
 
 @media (max-width: 500px) {
@@ -394,6 +399,10 @@ body {
 
   ol, ul {
     padding-left: 0;
+  }
+  .container-form{
+    display: flex;
+    flex-direction: column;
   }
 
   .footer .footer-col {
