@@ -312,7 +312,7 @@
   outline: 0px;
 }
 
-.container-form  form textarea {
+.container-form form textarea {
   max-width: 530px;
   min-width: 530px;
   min-height: 140px;
@@ -331,7 +331,7 @@
   transition: all 300ms ease;
 }
 
-.container-form  .btn-enviar:hover {
+.container-form .btn-enviar:hover {
   background: orange;
 }
 
@@ -401,5 +401,4 @@ body {
     padding: 0px 16px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

@@ -21,10 +21,11 @@
     , url(../img/mini_triples_de_miga-cover-min.jpg);
     background-size: cover;
     }
-   .card h3{
+   .card h2{
         display: flex;
         margin-top: 90px;
         justify-content: center;
+        border-bottom: aqua solid thin;
     }
 
 
